@@ -28,7 +28,11 @@ trait IndexTrait
 
             public function delete(Car $car): void
         {
-            
+                                                if ($car->wheels()->count() > 0) {
+                        $this->emit('deleteNotAllowed');
+                        return;
+                    }
+                            
             $car->delete();
         }
     }

@@ -32,10 +32,16 @@ return [
                 'created_at_helper' => '',
                     'updated_at' => 'Updated At',
                 'updated_at_helper' => '',
+                    'name' => 'Name',
+                'name_helper' => '',
                     ],
     ],
     'crud_controllers_fieldsets' => [
                     'default-fieldset-78' => [
+                'title' => 'Default fieldset',
+                'description' => '',
+            ],
+                    'default-fieldset-79' => [
                 'title' => 'Default fieldset',
                 'description' => '',
             ],

@@ -15,7 +15,7 @@ trait ProductTrait
         $casts = parent::getCasts();
                                                         $casts['created_at'] = 'datetime';
                                                 $casts['updated_at'] = 'datetime';
-                    
+                                        
         return $casts;
     }
 
@@ -34,6 +34,7 @@ trait ProductTrait
                             'id',
                             'created_at',
                             'updated_at',
+                            'name',
                     ];
     }
 

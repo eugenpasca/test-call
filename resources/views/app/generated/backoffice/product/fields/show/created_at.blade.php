@@ -1,0 +1,1 @@
+{{ $product->created_at }}
